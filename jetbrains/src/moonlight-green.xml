@@ -1,0 +1,78 @@
+<scheme name="Moonlight Green" version="142" parent_scheme="Darcula">
+  <colors>
+    <option name="CARET_COLOR" value="d3e6dc"/>
+    <option name="CARET_ROW_COLOR" value="263a32"/>
+    <option name="GUTTER_BACKGROUND" value="1c2b25"/>
+    <option name="LINE_NUMBERS_COLOR" value="587566"/>
+    <option name="LINE_NUMBER_ON_CARET_ROW_COLOR" value="a9c6b6"/>
+    <option name="SELECTION_BACKGROUND" value="376050"/>
+    <option name="INDENT_GUIDE" value="2a3d34"/>
+    <option name="SELECTED_INDENT_GUIDE" value="7f9b8c"/>
+    <option name="WHITESPACES" value="2a3d34"/>
+    <option name="RIGHT_MARGIN_COLOR" value="2a3d34"/>
+    <option name="METHOD_SEPARATORS_COLOR" value="2a3d34"/>
+    <option name="DOCUMENTATION_COLOR" value="17241f"/>
+  </colors>
+  <attributes>
+    <option name="TEXT"><value><option name="FOREGROUND" value="d3e6dc"/><option name="BACKGROUND" value="1c2b25"/></value></option>
+    <option name="DEFAULT_COMMENT"><value><option name="FOREGROUND" value="7a9a8b"/></value></option>
+    <option name="DEFAULT_LINE_COMMENT"><value><option name="FOREGROUND" value="7a9a8b"/></value></option>
+    <option name="DEFAULT_BLOCK_COMMENT"><value><option name="FOREGROUND" value="7a9a8b"/></value></option>
+    <option name="DEFAULT_DOC_COMMENT"><value><option name="FOREGROUND" value="7a9a8b"/></value></option>
+    <option name="DEFAULT_KEYWORD"><value><option name="FOREGROUND" value="c4a2ff"/></value></option>
+    <option name="DEFAULT_STRING"><value><option name="FOREGROUND" value="d8e98d"/></value></option>
+    <option name="DEFAULT_VALID_STRING_ESCAPE"><value><option name="FOREGROUND" value="78dbff"/></value></option>
+    <option name="DEFAULT_MARKUP_ENTITY"><value><option name="FOREGROUND" value="78dbff"/></value></option>
+    <option name="DEFAULT_INVALID_STRING_ESCAPE"><value><option name="FOREGROUND" value="ff757f"/></value></option>
+    <option name="DEFAULT_NUMBER"><value><option name="FOREGROUND" value="ff966c"/></value></option>
+    <option name="DEFAULT_CONSTANT"><value><option name="FOREGROUND" value="ff98a4"/></value></option>
+    <option name="DEFAULT_FUNCTION_DECLARATION"><value><option name="FOREGROUND" value="7cafff"/></value></option>
+    <option name="DEFAULT_INSTANCE_METHOD"><value><option name="FOREGROUND" value="7cafff"/></value></option>
+    <option name="DEFAULT_STATIC_METHOD"><value><option name="FOREGROUND" value="7cafff"/></value></option>
+    <option name="DEFAULT_CLASS_NAME"><value><option name="FOREGROUND" value="ffc777"/></value></option>
+    <option name="DEFAULT_INTERFACE_NAME"><value><option name="FOREGROUND" value="ffc777"/></value></option>
+    <option name="DEFAULT_CLASS_REFERENCE"><value><option name="FOREGROUND" value="ffc777"/></value></option>
+    <option name="DEFAULT_LOCAL_VARIABLE"><value><option name="FOREGROUND" value="ff98a4"/></value></option>
+    <option name="DEFAULT_GLOBAL_VARIABLE"><value><option name="FOREGROUND" value="ff98a4"/></value></option>
+    <option name="DEFAULT_PARAMETER"><value><option name="FOREGROUND" value="fca7ea"/></value></option>
+    <option name="DEFAULT_INSTANCE_FIELD"><value><option name="FOREGROUND" value="78dbff"/></value></option>
+    <option name="DEFAULT_STATIC_FIELD"><value><option name="FOREGROUND" value="78dbff"/></value></option>
+    <option name="DEFAULT_OPERATION_SIGN"><value><option name="FOREGROUND" value="a4eef0"/></value></option>
+    <option name="DEFAULT_COMMA"><value><option name="FOREGROUND" value="a4eef0"/></value></option>
+    <option name="DEFAULT_SEMICOLON"><value><option name="FOREGROUND" value="a4eef0"/></value></option>
+    <option name="DEFAULT_DOT"><value><option name="FOREGROUND" value="a4eef0"/></value></option>
+    <option name="DEFAULT_BRACKETS"><value><option name="FOREGROUND" value="6fd6e0"/></value></option>
+    <option name="DEFAULT_BRACES"><value><option name="FOREGROUND" value="6fd6e0"/></value></option>
+    <option name="DEFAULT_PARENTHS"><value><option name="FOREGROUND" value="6fd6e0"/></value></option>
+    <option name="DEFAULT_TAG"><value><option name="FOREGROUND" value="8aadf4"/></value></option>
+    <option name="XML_TAG_NAME"><value><option name="FOREGROUND" value="8aadf4"/></value></option>
+    <option name="HTML_TAG_NAME"><value><option name="FOREGROUND" value="8aadf4"/></value></option>
+    <option name="XML_NS_PREFIX"><value><option name="FOREGROUND" value="f8b576"/></value></option>
+    <option name="DEFAULT_ATTRIBUTE"><value><option name="FOREGROUND" value="c4a2ff"/></value></option>
+    <option name="DEFAULT_METADATA"><value><option name="FOREGROUND" value="c4a2ff"/></value></option>
+    <option name="DEFAULT_LABEL"><value><option name="FOREGROUND" value="ff757f"/></value></option>
+    <option name="ANNOTATION_NAME_ATTRIBUTES"><value><option name="FOREGROUND" value="7c62cb"/></value></option>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES"><value><option name="FOREGROUND" value="7c62cb"/></value></option>
+    <option name="SEARCH_RESULT_ATTRIBUTES"><value><option name="BACKGROUND" value="2f6b57"/></value></option>
+    <option name="WRITE_SEARCH_RESULT_ATTRIBUTES"><value><option name="BACKGROUND" value="2f6b57"/></value></option>
+    <option name="CONSOLE_BLACK_OUTPUT"><value><option name="FOREGROUND" value="0b120f"/></value></option>
+    <option name="CONSOLE_BLACK_BRIGHT_OUTPUT"><value><option name="FOREGROUND" value="6f9484"/></value></option>
+    <option name="CONSOLE_RED_OUTPUT"><value><option name="FOREGROUND" value="ff757f"/></value></option>
+    <option name="CONSOLE_RED_BRIGHT_OUTPUT"><value><option name="FOREGROUND" value="ff98a4"/></value></option>
+    <option name="CONSOLE_GREEN_OUTPUT"><value><option name="FOREGROUND" value="8fe3b5"/></value></option>
+    <option name="CONSOLE_GREEN_BRIGHT_OUTPUT"><value><option name="FOREGROUND" value="a6f0c6"/></value></option>
+    <option name="CONSOLE_YELLOW_OUTPUT"><value><option name="FOREGROUND" value="ffc777"/></value></option>
+    <option name="CONSOLE_YELLOW_BRIGHT_OUTPUT"><value><option name="FOREGROUND" value="ffd593"/></value></option>
+    <option name="CONSOLE_BLUE_OUTPUT"><value><option name="FOREGROUND" value="7cafff"/></value></option>
+    <option name="CONSOLE_BLUE_BRIGHT_OUTPUT"><value><option name="FOREGROUND" value="9bc1ff"/></value></option>
+    <option name="CONSOLE_MAGENTA_OUTPUT"><value><option name="FOREGROUND" value="fca7ea"/></value></option>
+    <option name="CONSOLE_MAGENTA_BRIGHT_OUTPUT"><value><option name="FOREGROUND" value="ffbdf0"/></value></option>
+    <option name="CONSOLE_CYAN_OUTPUT"><value><option name="FOREGROUND" value="78dbff"/></value></option>
+    <option name="CONSOLE_CYAN_BRIGHT_OUTPUT"><value><option name="FOREGROUND" value="9ae5ff"/></value></option>
+    <option name="CONSOLE_GRAY_OUTPUT"><value><option name="FOREGROUND" value="d3e6dc"/></value></option>
+    <option name="CONSOLE_GRAY_BRIGHT_OUTPUT"><value><option name="FOREGROUND" value="eef9f3"/></value></option>
+    <option name="CONSOLE_NORMAL_OUTPUT"><value><option name="FOREGROUND" value="d9ede3"/></value></option>
+    <option name="CONSOLE_ERROR_OUTPUT"><value><option name="FOREGROUND" value="ff757f"/></value></option>
+    <option name="CONSOLE_USER_INPUT"><value><option name="FOREGROUND" value="8fe3b5"/></value></option>
+  </attributes>
+</scheme>

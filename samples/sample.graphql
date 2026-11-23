@@ -1,0 +1,73 @@
+# GraphQL sample: schema, query, mutation, fragment
+"""
+A registered user in the system.
+"""
+type User implements Node {
+  id: ID!
+  name: String!
+  email: String
+  age: Int = 0
+  role: Role!
+  posts(first: Int = 10, after: String): [Post!]!
+}
+
+enum Role {
+  ADMIN
+  USER
+  GUEST
+}
+
+interface Node {
+  id: ID!
+}
+
+type Post {
+  id: ID!
+  title: String!
+  published: Boolean!
+  rating: Float
+  author: User!
+}
+
+input CreatePostInput {
+  title: String!
+  body: String
+  published: Boolean = false
+}
+
+union SearchResult = User | Post
+
+scalar DateTime
+
+type Query {
+  user(id: ID!): User
+  search(term: String!): [SearchResult!]!
+}
+
+type Mutation {
+  createPost(input: CreatePostInput!): Post!
+}
+
+fragment UserFields on User {
+  id
+  name
+  role
+}
+
+query GetUser($id: ID!, $withPosts: Boolean = true) {
+  user(id: $id) {
+    ...UserFields
+    email
+    posts(first: 5) @include(if: $withPosts) {
+      title
+      published
+    }
+  }
+}
+
+mutation NewPost {
+  createPost(input: { title: "Hello world", published: true }) {
+    id
+    title
+  }
+}

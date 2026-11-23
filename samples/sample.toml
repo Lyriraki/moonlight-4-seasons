@@ -1,0 +1,31 @@
+# TOML sample: Cargo.toml
+[package]
+name = "sample-rust"
+version = "0.1.0"
+edition = "2021"
+authors = ["Alex <alex@example.com>"]
+publish = false
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
+anyhow = "1.0"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[profile.release]
+opt-level = 3
+lto = true
+debug = false
+
+[[bin]]
+name = "app"
+path = "src/main.rs"
+
+[server]
+host = "127.0.0.1"
+port = 8080
+ratio = 0.75
+tags = ["web", "api"]
+started = 2026-11-22T10:00:00+07:00

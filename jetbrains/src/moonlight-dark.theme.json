@@ -1,0 +1,231 @@
+{
+  "name": "Moonlight Dark",
+  "dark": true,
+  "author": "Based on Moonlight by atomiks (MIT); converted for JetBrains IDEs",
+  "editorScheme": "/moonlight-dark.xml",
+  "ui": {
+    "*": {
+      "background": "#22243a",
+      "foreground": "#f4f6fd",
+      "selectionBackground": "#414a7a",
+      "selectionForeground": "#f4f6fd",
+      "selectionInactiveBackground": "#353c63",
+      "disabledForeground": "#444a73",
+      "borderColor": "#343a5c",
+      "hoverBackground": "#353c63",
+      "infoForeground": "#e3e5ed",
+      "separatorColor": "#343a5c",
+      "lineSeparatorColor": "#343a5c",
+      "focusColor": "#7cafff",
+      "caretForeground": "#c8d3f5"
+    },
+    "Panel": {
+      "background": "#22243a",
+      "foreground": "#f4f6fd"
+    },
+    "Label": {
+      "foreground": "#f4f6fd",
+      "disabledForeground": "#444a73",
+      "infoForeground": "#e3e5ed"
+    },
+    "EditorPane": {
+      "background": "#282b42"
+    },
+    "TextArea": {
+      "background": "#282b42"
+    },
+    "TextField": {
+      "background": "#282b42"
+    },
+    "FormattedTextField": {
+      "background": "#282b42"
+    },
+    "PasswordField": {
+      "background": "#282b42"
+    },
+    "ComboBox": {
+      "background": "#282b42",
+      "nonEditableBackground": "#22243a"
+    },
+    "Button": {
+      "startBackground": "#353c63",
+      "endBackground": "#353c63",
+      "startBorderColor": "#343a5c",
+      "endBorderColor": "#343a5c",
+      "foreground": "#f4f6fd",
+      "focusedBorderColor": "#7cafff",
+      "default": {
+        "startBackground": "#7a56d4",
+        "endBackground": "#7a56d4",
+        "startBorderColor": "#9d80f2",
+        "endBorderColor": "#9d80f2",
+        "foreground": "#f4f6fd",
+        "focusedBorderColor": "#7cafff"
+      }
+    },
+    "Tree": {
+      "background": "#22243a",
+      "foreground": "#f4f6fd",
+      "selectionInactiveForeground": "#f4f6fd",
+      "selectionForeground": "#f4f6fd",
+      "hoverBackground": "#353c63",
+      "selectionBackground": "#414a7a",
+      "selectionInactiveBackground": "#353c63"
+    },
+    "List": {
+      "background": "#22243a",
+      "foreground": "#f4f6fd",
+      "selectionInactiveForeground": "#f4f6fd",
+      "selectionForeground": "#f4f6fd",
+      "selectionBackground": "#414a7a",
+      "selectionInactiveBackground": "#353c63"
+    },
+    "Table": {
+      "background": "#282b42",
+      "foreground": "#f4f6fd",
+      "selectionForeground": "#f4f6fd",
+      "gridColor": "#343a5c",
+      "selectionBackground": "#414a7a",
+      "selectionInactiveBackground": "#353c63",
+      "stripeColor": "#22243a"
+    },
+    "TableHeader": {
+      "background": "#1c1e30",
+      "borderColor": "#343a5c"
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "#1c1e30",
+        "inactiveBackground": "#1c1e30",
+        "borderColor": "#343a5c"
+      },
+      "HeaderTab": {
+        "selectedForeground": "#f4f6fd",
+        "foreground": "#e3e5ed",
+        "selectedBackground": "#282b42",
+        "inactiveBackground": "#1c1e30",
+        "hoverBackground": "#353c63",
+        "underlineColor": "#7cafff"
+      }
+    },
+    "EditorTabs": {
+      "foreground": "#e3e5ed",
+      "selectedForeground": "#f4f6fd",
+      "inactiveForeground": "#e3e5ed",
+      "underlinedTabForeground": "#f4f6fd",
+      "hoverForeground": "#f4f6fd",
+      "background": "#1c1e30",
+      "borderColor": "#343a5c",
+      "underlineColor": "#7cafff",
+      "underlinedTabBackground": "#282b42",
+      "hoverBackground": "#353c63",
+      "selectedBackground": "#282b42",
+      "inactiveColoredFileBackground": "#1c1e30"
+    },
+    "DefaultTabs": {
+      "foreground": "#e3e5ed",
+      "selectedForeground": "#f4f6fd",
+      "inactiveForeground": "#e3e5ed",
+      "underlinedTabForeground": "#f4f6fd",
+      "hoverForeground": "#f4f6fd",
+      "background": "#1c1e30",
+      "borderColor": "#343a5c",
+      "underlineColor": "#7cafff",
+      "hoverBackground": "#353c63",
+      "selectedBackground": "#282b42"
+    },
+    "TabbedPane": {
+      "foreground": "#f4f6fd",
+      "background": "#22243a",
+      "underlineColor": "#7cafff",
+      "hoverColor": "#353c63",
+      "focusColor": "#353c63"
+    },
+    "StatusBar": {
+      "foreground": "#f4f6fd",
+      "background": "#22243a",
+      "borderColor": "#343a5c",
+      "hoverBackground": "#353c63"
+    },
+    "MainToolbar": {
+      "background": "#22243a",
+      "borderColor": "#343a5c"
+    },
+    "TitlePane": {
+      "foreground": "#f4f6fd",
+      "background": "#22243a",
+      "inactiveBackground": "#22243a",
+      "infoForeground": "#b4c0f0"
+    },
+    "Popup": {
+      "borderColor": "#343a5c",
+      "Header": {
+        "inactiveBackground": "#1c1e30",
+        "activeBackground": "#1c1e30"
+      }
+    },
+    "PopupMenu": {
+      "background": "#22243a"
+    },
+    "Menu": {
+      "background": "#22243a",
+      "borderColor": "#343a5c"
+    },
+    "MenuItem": {
+      "foreground": "#f4f6fd",
+      "background": "#22243a",
+      "selectionBackground": "#414a7a",
+      "selectionForeground": "#f4f6fd"
+    },
+    "SearchEverywhere": {
+      "Header": {
+        "background": "#1c1e30"
+      },
+      "Tab": {
+        "selectedBackground": "#414a7a"
+      }
+    },
+    "Notification": {
+      "background": "#1c1e30",
+      "borderColor": "#343a5c"
+    },
+    "ActionButton": {
+      "hoverBackground": "#353c63",
+      "pressedBackground": "#414a7a",
+      "hoverBorderColor": "#343a5c",
+      "pressedBorderColor": "#343a5c"
+    },
+    "Link": {
+      "activeForeground": "#7cafff",
+      "hoverForeground": "#7cafff",
+      "pressedForeground": "#7cafff"
+    },
+    "ProgressBar": {
+      "progressColor": "#7cafff"
+    },
+    "Component": {
+      "focusColor": "#7cafff",
+      "borderColor": "#343a5c"
+    },
+    "Borders": {
+      "color": "#343a5c",
+      "ContrastBorderColor": "#343a5c"
+    },
+    "Separator": {
+      "separatorColor": "#343a5c"
+    },
+    "SidePanel": {
+      "background": "#22243a"
+    },
+    "Plugins": {
+      "background": "#22243a",
+      "SearchField": {
+        "background": "#282b42"
+      },
+      "Tab": {
+        "selectedBackground": "#414a7a"
+      },
+      "lightSelectionBackground": "#353c63"
+    }
+  }
+}

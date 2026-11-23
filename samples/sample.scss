@@ -1,0 +1,61 @@
+// SCSS sample: variables, mixin, nesting, function
+@use "sass:math";
+@use "./variables" as vars;
+
+$primary: #7c5cff;
+$breakpoints: (
+  "sm": 640px,
+  "md": 768px,
+  "lg": 1024px,
+);
+$radius: 12px !default;
+
+@mixin respond($key) {
+  @media (min-width: map-get($breakpoints, $key)) {
+    @content;
+  }
+}
+
+@function rem($px, $base: 16) {
+  @return math.div($px, $base) * 1rem;
+}
+
+%card-base {
+  border-radius: $radius;
+  box-shadow: 0 4px 12px rgba(black, 0.25);
+}
+
+.card {
+  @extend %card-base;
+  padding: rem(24);
+  background: lighten($primary, 30%);
+
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  &--active {
+    border: 2px solid $primary;
+  }
+
+  .title {
+    font-size: rem(20);
+    color: darken($primary, 10%);
+
+    @include respond("md") {
+      font-size: rem(28);
+    }
+  }
+
+  @each $name, $color in (success: #3ad7c7, danger: #ff757f) {
+    &.is-#{$name} {
+      border-left: 4px solid $color;
+    }
+  }
+}
+
+@for $i from 1 through 3 {
+  .mt-#{$i} {
+    margin-top: #{$i * 8}px;
+  }
+}

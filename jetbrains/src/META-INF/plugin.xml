@@ -1,0 +1,30 @@
+<idea-plugin>
+  <id>com.moonlight4seasons.theme</id>
+  <name>Moonlight 4 Seasons</name>
+  <version>1.0.0</version>
+  <vendor url="https://github.com/Lyriraki">Lyriraki</vendor>
+  <description><![CDATA[
+    <p>Four Moonlight-inspired color themes for every JetBrains IDE: <b>Dark</b>, <b>Paper</b>, <b>Green</b> and <b>Light</b>.</p>
+    <ul>
+      <li>Moonlight Dark: bubblegum colors on a moonlit dark background</li>
+      <li>Moonlight Paper: warm, paper-like light theme with vivid syntax colors</li>
+      <li>Moonlight Green: deep green tones with mint accents</li>
+      <li>Moonlight Light: soft, cool off-white light theme</li>
+    </ul>
+    <p>Works in IntelliJ IDEA, Android Studio, WebStorm, PyCharm and other IDEs based on the IntelliJ platform.
+    Blur variants are available for the Zed editor only (JetBrains IDEs do not support window transparency).</p>
+    <p>Based on <a href="https://github.com/atomiks/moonlight-vscode-theme">Moonlight</a> by atomiks (MIT license).
+    Source code and screenshots: <a href="https://github.com/Lyriraki/moonlight-4-seasons">github.com/Lyriraki/moonlight-4-seasons</a></p>
+  ]]></description>
+  <change-notes><![CDATA[
+    <b>1.0.0</b> First public release: Dark, Paper, Green and Light themes.
+  ]]></change-notes>
+  <idea-version since-build="223"/>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="com.moonlight4seasons.moonlight-dark" path="/moonlight-dark.theme.json"/>
+    <themeProvider id="com.moonlight4seasons.moonlight-paper" path="/moonlight-paper.theme.json"/>
+    <themeProvider id="com.moonlight4seasons.moonlight-green" path="/moonlight-green.theme.json"/>
+    <themeProvider id="com.moonlight4seasons.moonlight-light" path="/moonlight-light.theme.json"/>
+  </extensions>
+</idea-plugin>

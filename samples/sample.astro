@@ -1,0 +1,47 @@
+---
+// Astro sample: frontmatter + template
+import Header from "../components/Header.astro";
+import { languages, defaultLang } from "../i18n/config";
+
+interface Props {
+    title: string;
+    description?: string;
+}
+
+const { title, description = "No description" } = Astro.props;
+const items = ["One", "Two", "Three"];
+const year = new Date().getFullYear();
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    </head>
+    <body class="min-h-screen flex flex-col font-sans">
+        <Header lang={defaultLang} page="home" path="/" />
+        <main class="flex-grow w-full">
+            <h1 class="text-2xl">{title}</h1>
+            <ul>
+                {items.map((item, i) => (
+                    <li class="item">
+                        {i + 1}. {item}
+                    </li>
+                ))}
+            </ul>
+            <p>
+                <a href="/privacy/">Continue</a>
+            </p>
+            <slot />
+        </main>
+        <footer>&copy; {year} Example</footer>
+
+        <script>
+            import "../scripts/site";
+            console.log("Hello from the client", 42);
+        </script>
+    </body>
+</html>

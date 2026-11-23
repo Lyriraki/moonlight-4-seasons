@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40" height="40">
+  <defs>
+    <clipPath id="moon"><circle cx="256" cy="256" r="176"/></clipPath>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0.62" stop-color="#8aadf4" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#8aadf4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1c33"/>
+      <stop offset="1" stop-color="#0d0e1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="236" fill="url(#glow)"/>
+  <g clip-path="url(#moon)">
+    <rect x="80" y="80" width="88" height="352" fill="#454b7e"/>
+    <rect x="168" y="80" width="88" height="352" fill="#2f7a5f"/>
+    <rect x="256" y="80" width="88" height="352" fill="#ddcfae"/>
+    <rect x="344" y="80" width="88" height="352" fill="#e6e9f2"/>
+    <g stroke="#0d0e1c" stroke-width="5" opacity="0.5">
+      <line x1="168" y1="80" x2="168" y2="432"/><line x1="256" y1="80" x2="256" y2="432"/><line x1="344" y1="80" x2="344" y2="432"/>
+    </g>
+    <circle cx="205" cy="180" r="22" fill="#ffffff" opacity="0.07"/>
+    <circle cx="300" cy="330" r="30" fill="#000000" opacity="0.06"/>
+    <circle cx="150" cy="320" r="14" fill="#ffffff" opacity="0.08"/>
+  </g>
+  <circle cx="256" cy="256" r="176" fill="none" stroke="#c8d3f5" stroke-opacity="0.55" stroke-width="5"/>
+  <g fill="#c8d3f5">
+    <circle cx="92" cy="96" r="4" opacity="0.8"/><circle cx="430" cy="78" r="3" opacity="0.6"/>
+    <circle cx="448" cy="420" r="4" opacity="0.7"/><circle cx="70" cy="410" r="3" opacity="0.6"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Page</title>
+    <link rel="stylesheet" href="/styles/main.css" />
+    <style>
+      .card { color: #333; padding: 1rem; }
+    </style>
+  </head>
+  <body class="min-h-screen flex" data-theme="dark">
+    <!-- Main navigation -->
+    <nav id="menu" aria-label="Main">
+      <ul>
+        <li><a href="/privacy/">Continue</a></li>
+        <li><a href="https://example.com" target="_blank" rel="noopener">External site</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h1 class="title">Welcome &amp; thank you</h1>
+      <p>This is a paragraph with <strong>bold text</strong> and <em>italic</em>.</p>
+      <img src="/logo.png" alt="Logo" width="64" height="64" />
+      <button type="button" disabled onclick="greet('Alex')">Click me</button>
+      <input type="email" placeholder="Your email" required />
+    </main>
+
+    <script>
+      function greet(name) {
+        const msg = `Hello, ${name}!`;
+        console.log(msg, 42, true);
+      }
+    </script>
+  </body>
+</html>

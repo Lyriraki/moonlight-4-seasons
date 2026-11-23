@@ -1,0 +1,7 @@
+id = "moonlight-4-seasons"
+name = "Moonlight 4 Seasons"
+version = "1.0.0"
+schema_version = 1
+authors = ["Lyriraki"]
+description = "Moonlight-inspired themes in four seasons: Dark, Paper, Green and Light, each with two blur variants."
+repository = "https://github.com/Lyriraki/moonlight-4-seasons"

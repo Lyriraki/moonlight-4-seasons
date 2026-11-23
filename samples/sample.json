@@ -1,0 +1,25 @@
+{
+  "name": "sample-project",
+  "version": "1.2.3",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "build": "bun build ./src/index.ts --outdir ./dist"
+  },
+  "dependencies": {
+    "hono": "^4.0.0",
+    "zod": "^3.22.0"
+  },
+  "config": {
+    "port": 3000,
+    "ratio": 0.75,
+    "debug": false,
+    "owner": null,
+    "tags": ["web", "api", "bun"],
+    "nested": {
+      "level": {
+        "deep": "deepest value"
+      }
+    }
+  }
+}
