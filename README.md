@@ -34,6 +34,8 @@ Every theme comes in three flavors, so Zed has **12 themes** in total:
 
 The same goes for Paper, Green and Light. Blur only works on systems where Zed can blur the window background. JetBrains IDEs cannot do window transparency, so the plugin has the four solid themes only.
 
+> **Experimental:** the blur variants of **Light** and **Paper** are still experimental. Light themes need a fairly opaque surface to keep the code readable, so their blur effect is subtle and they can look very close to the regular versions. The **Dark** and **Green** blur variants show the effect much more clearly. Improving Light and Paper blur is on the to-do list.
+
 ## Install
 
 ### Zed
@@ -85,6 +87,8 @@ Screenshots are taken in Zed with the [sample files](samples/).
 
 ### Paper
 
+> Blur V1 and V2 are experimental for this theme (the blur is subtle).
+
 ![Moonlight Paper](screenshots/web/paper.png)
 ![Moonlight Paper Blur V1](screenshots/web/paper-blur-v1.png)
 ![Moonlight Paper Blur V2](screenshots/web/paper-blur-v2.png)
@@ -114,6 +118,8 @@ Screenshots are taken in Zed with the [sample files](samples/).
 </details>
 
 ### Light
+
+> Blur V1 and V2 are experimental for this theme (the blur is subtle).
 
 ![Moonlight Light](screenshots/web/light.png)
 ![Moonlight Light Blur V1](screenshots/web/light-blur-v1.png)
