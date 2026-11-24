@@ -5,6 +5,10 @@
 <h1 align="center">Moonlight 4 Seasons</h1>
 
 <p align="center">
+  <b><i>Even if AI writes your code, I hope you still enjoy every line of it with this theme.</i></b>
+</p>
+
+<p align="center">
   A moon split into four seasons: <b>Dark</b>, <b>Paper</b>, <b>Green</b> and <b>Light</b>.<br>
   Moonlight-inspired color themes for <a href="https://zed.dev">Zed</a> and JetBrains IDEs, with optional blur.
 </p>
